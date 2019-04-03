@@ -62,7 +62,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Size = new System.Drawing.Size(560, 394);
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "links";
             // 
             // tabPage2
             // 
@@ -70,7 +70,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(560, 394);
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "rechts";
             // 
             // motorCtrlViewRight
             // 
