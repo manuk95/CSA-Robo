@@ -33,6 +33,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.motorCtrlViewRight = new RobotView.MotorCtrlView();
+            this.driveCtrlView1 = new RobotView.DriveCtrlView();
             this.Links.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -80,12 +81,21 @@
             this.motorCtrlViewRight.Size = new System.Drawing.Size(525, 326);
             this.motorCtrlViewRight.TabIndex = 1;
             // 
+            // driveCtrlView1
+            // 
+            this.driveCtrlView1.DriveCtrl = null;
+            this.driveCtrlView1.Location = new System.Drawing.Point(25, 455);
+            this.driveCtrlView1.Name = "driveCtrlView1";
+            this.driveCtrlView1.Size = new System.Drawing.Size(564, 78);
+            this.driveCtrlView1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(638, 547);
+            this.Controls.Add(this.driveCtrlView1);
             this.Controls.Add(this.Links);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -103,6 +113,7 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private RobotView.MotorCtrlView motorCtrlViewRight;
+        private RobotView.DriveCtrlView driveCtrlView1;
     }
 }
 

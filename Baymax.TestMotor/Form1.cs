@@ -19,7 +19,7 @@ namespace Baymax.TestMotor
             // Referenzen Zuweisen
             this.motorCtrlViewLeft.MotorCtrl = new RobotCtrl.MotorCtrl(Constants.IOMotorCtrlLeft);
             this.motorCtrlViewRight.MotorCtrl = new RobotCtrl.MotorCtrl(Constants.IOMotorCtrlRight);
-            //this.driveCtrlView.DriveCtrl = new DriveCtrl(Constants.IODriveCtrl);
+            this.driveCtrlView1.DriveCtrl = new RobotCtrl.DriveCtrl(Constants.IODriveCtrl);
 
         }
     }
