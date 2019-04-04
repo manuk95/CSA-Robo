@@ -15,7 +15,12 @@ namespace Baymax.TestMotor
         public Form1()
         {
             InitializeComponent();
-            motorCtrlViewLeft.MotorCtrl = new RobotCtrl.MotorCtrl(Constants.IOMotorCtrlLeft);
+
+            // Referenzen Zuweisen
+            this.motorCtrlViewLeft.MotorCtrl = new RobotCtrl.MotorCtrl(Constants.IOMotorCtrlLeft);
+            this.motorCtrlViewRight.MotorCtrl = new RobotCtrl.MotorCtrl(Constants.IOMotorCtrlRight);
+            //this.driveCtrlView.DriveCtrl = new DriveCtrl(Constants.IODriveCtrl);
+
         }
     }
 }
