@@ -41,7 +41,7 @@ namespace RobotView
             this.label16.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
             this.label16.Location = new System.Drawing.Point(0, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(182, 20);
+            this.label16.Size = new System.Drawing.Size(260, 24);
             this.label16.Text = "Common Run Parameter";
             // 
             // upDownAcceleration
@@ -58,7 +58,7 @@ namespace RobotView
             0,
             0});
             this.upDownAcceleration.Name = "upDownAcceleration";
-            this.upDownAcceleration.Size = new System.Drawing.Size(75, 24);
+            this.upDownAcceleration.Size = new System.Drawing.Size(75, 32);
             this.upDownAcceleration.TabIndex = 20;
             this.upDownAcceleration.Value = new decimal(new int[] {
             300,
@@ -80,7 +80,7 @@ namespace RobotView
             0,
             0});
             this.upDownSpeed.Name = "upDownSpeed";
-            this.upDownSpeed.Size = new System.Drawing.Size(75, 24);
+            this.upDownSpeed.Size = new System.Drawing.Size(75, 32);
             this.upDownSpeed.TabIndex = 21;
             this.upDownSpeed.Value = new decimal(new int[] {
             500,
@@ -124,7 +124,7 @@ namespace RobotView
             // 
             // CommonRunParameters
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.Controls.Add(this.buttonEditAcceleration);
             this.Controls.Add(this.buttonEditSpeed);
@@ -134,7 +134,7 @@ namespace RobotView
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Name = "CommonRunParameters";
-            this.Size = new System.Drawing.Size(410, 84);
+            this.Size = new System.Drawing.Size(372, 97);
             this.ResumeLayout(false);
 
         }
