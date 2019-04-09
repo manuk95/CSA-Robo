@@ -65,7 +65,7 @@ namespace RobotCtrl
             get { return (DriveState & 0x02) != 0; } // ToDo
             set { DriveState = (value) ? DriveState | 0x02 : DriveState & ~0x02; } // ToDo
         }
-
+        
 
         /// <summary>
         /// Bietet Zugriff auf das Status-/Controlregister
@@ -73,7 +73,7 @@ namespace RobotCtrl
         public int DriveState
         {
             get { return IOPort.Read(this.ioAddress); } // ToDo
-            set { IOPort.Write(this.ioAddress, DriveState); } // ToDo
+            set { IOPort.Write(this.ioAddress, value); } // ToDo
         }
         #endregion
 
@@ -86,6 +86,12 @@ namespace RobotCtrl
         public void Reset()
         {
             // ToDo
+            DriveState = 0x00;
+            Thread.Sleep(5);
+            DriveState = 0x80;
+            Thread.Sleep(5);
+            DriveState = 0x00;
+            Thread.Sleep(5);
         }
         #endregion
 

@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonRunParameters\CommonRunParameters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonRunParameters\CommonRunParameters.designer.cs">
+      <DependentUpon>CommonRunParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DriveView\DriveView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DriveView\DriveView.designer.cs">
+      <DependentUpon>DriveView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +65,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CommonRunParameters\CommonRunParameters.resx">
+      <DependentUpon>CommonRunParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriveView\DriveView.resx">
+      <DependentUpon>DriveView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +83,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Baymax.Console\Baymax.Console.csproj">
+      <Project>{DDA22186-197A-49BE-A74A-D095B47E7BEC}</Project>
+      <Name>Baymax.Console</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Baymax.Control\Baymax.Control.csproj">
+      <Project>{FFBE1F23-1963-43A2-A7DF-8BCCEE879FAA}</Project>
+      <Name>Baymax.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Baymax.IO\Baymax.IO.csproj">
+      <Project>{2C3E57E0-2378-46DD-8508-B5CFCE1C4452}</Project>
+      <Name>Baymax.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Baymax.TestMotor\Baymax.TestMotor.csproj">
+      <Project>{433B52F5-4A42-4453-838A-B423356BE31F}</Project>
+      <Name>Baymax.TestMotor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Baymax.View\Baymax.View.csproj">
+      <Project>{B9A47E8F-E226-4272-B83F-1983F0BE49DC}</Project>
+      <Name>Baymax.View</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkTargetsVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

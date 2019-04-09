@@ -53,7 +53,7 @@
             // 
             // labelCurrentSpeed
             // 
-            this.labelCurrentSpeed.Location = new System.Drawing.Point(368, 166);
+            this.labelCurrentSpeed.Location = new System.Drawing.Point(368, 138);
             this.labelCurrentSpeed.Name = "labelCurrentSpeed";
             this.labelCurrentSpeed.Size = new System.Drawing.Size(96, 20);
             this.labelCurrentSpeed.Text = "0.000 [m/s]";
@@ -77,6 +77,7 @@
             // 
             // label11
             // 
+            this.label11.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
             this.label11.Location = new System.Drawing.Point(15, 96);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(123, 20);
@@ -86,11 +87,12 @@
             // 
             this.textBoxTicks.Location = new System.Drawing.Point(392, 96);
             this.textBoxTicks.Name = "textBoxTicks";
-            this.textBoxTicks.Size = new System.Drawing.Size(72, 23);
+            this.textBoxTicks.Size = new System.Drawing.Size(72, 31);
             this.textBoxTicks.TabIndex = 42;
             // 
             // label10
             // 
+            this.label10.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
             this.label10.Location = new System.Drawing.Point(15, 67);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(123, 20);
@@ -100,26 +102,26 @@
             // 
             this.textBoxDistance.Location = new System.Drawing.Point(392, 67);
             this.textBoxDistance.Name = "textBoxDistance";
-            this.textBoxDistance.Size = new System.Drawing.Size(72, 23);
+            this.textBoxDistance.Size = new System.Drawing.Size(72, 31);
             this.textBoxDistance.TabIndex = 35;
             // 
             // textBoxMotorSpeed
             // 
-            this.textBoxMotorSpeed.Location = new System.Drawing.Point(392, 227);
+            this.textBoxMotorSpeed.Location = new System.Drawing.Point(392, 174);
             this.textBoxMotorSpeed.Name = "textBoxMotorSpeed";
-            this.textBoxMotorSpeed.Size = new System.Drawing.Size(72, 23);
+            this.textBoxMotorSpeed.Size = new System.Drawing.Size(72, 31);
             this.textBoxMotorSpeed.TabIndex = 29;
             // 
             // textBoxAcceleration
             // 
-            this.textBoxAcceleration.Location = new System.Drawing.Point(392, 281);
+            this.textBoxAcceleration.Location = new System.Drawing.Point(392, 228);
             this.textBoxAcceleration.Name = "textBoxAcceleration";
-            this.textBoxAcceleration.Size = new System.Drawing.Size(72, 23);
+            this.textBoxAcceleration.Size = new System.Drawing.Size(72, 31);
             this.textBoxAcceleration.TabIndex = 11;
             // 
             // trackBarAcceleration
             // 
-            this.trackBarAcceleration.Location = new System.Drawing.Point(161, 270);
+            this.trackBarAcceleration.Location = new System.Drawing.Point(161, 217);
             this.trackBarAcceleration.Maximum = 5000;
             this.trackBarAcceleration.Name = "trackBarAcceleration";
             this.trackBarAcceleration.Size = new System.Drawing.Size(213, 45);
@@ -129,14 +131,15 @@
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(15, 282);
+            this.label9.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
+            this.label9.Location = new System.Drawing.Point(15, 229);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(140, 20);
             this.label9.Text = "Acceleration [m/s^2]";
             // 
             // trackBarMotorSpeed
             // 
-            this.trackBarMotorSpeed.Location = new System.Drawing.Point(161, 216);
+            this.trackBarMotorSpeed.Location = new System.Drawing.Point(161, 163);
             this.trackBarMotorSpeed.Maximum = 2000;
             this.trackBarMotorSpeed.Minimum = -2000;
             this.trackBarMotorSpeed.Name = "trackBarMotorSpeed";
@@ -147,21 +150,23 @@
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(15, 228);
+            this.label8.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
+            this.label8.Location = new System.Drawing.Point(15, 175);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(123, 20);
             this.label8.Text = "Motor speed [m/s]";
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(15, 166);
+            this.label7.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
+            this.label7.Location = new System.Drawing.Point(15, 138);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 20);
             this.label7.Text = "Motor control";
             // 
             // buttonMotorCtrlStart
             // 
-            this.buttonMotorCtrlStart.Location = new System.Drawing.Point(174, 166);
+            this.buttonMotorCtrlStart.Location = new System.Drawing.Point(174, 138);
             this.buttonMotorCtrlStart.Name = "buttonMotorCtrlStart";
             this.buttonMotorCtrlStart.Size = new System.Drawing.Size(72, 20);
             this.buttonMotorCtrlStart.TabIndex = 12;
@@ -170,7 +175,7 @@
             // 
             // buttonMotorCtrlStop
             // 
-            this.buttonMotorCtrlStop.Location = new System.Drawing.Point(290, 166);
+            this.buttonMotorCtrlStop.Location = new System.Drawing.Point(290, 138);
             this.buttonMotorCtrlStop.Name = "buttonMotorCtrlStop";
             this.buttonMotorCtrlStop.Size = new System.Drawing.Size(72, 20);
             this.buttonMotorCtrlStop.TabIndex = 13;
@@ -179,6 +184,7 @@
             // 
             // label6
             // 
+            this.label6.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
             this.label6.Location = new System.Drawing.Point(15, 12);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 20);
@@ -195,6 +201,7 @@
             // 
             // label5
             // 
+            this.label5.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
             this.label5.Location = new System.Drawing.Point(15, 41);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 20);
@@ -204,7 +211,7 @@
             // 
             this.textBoxDriveCtrlMotorStatus.Location = new System.Drawing.Point(392, 38);
             this.textBoxDriveCtrlMotorStatus.Name = "textBoxDriveCtrlMotorStatus";
-            this.textBoxDriveCtrlMotorStatus.Size = new System.Drawing.Size(72, 23);
+            this.textBoxDriveCtrlMotorStatus.Size = new System.Drawing.Size(72, 31);
             this.textBoxDriveCtrlMotorStatus.TabIndex = 10;
             // 
             // timer
@@ -214,7 +221,7 @@
             // 
             // MotorCtrlView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.Controls.Add(this.labelCurrentSpeed);
             this.Controls.Add(this.buttonResetTicks);
@@ -236,8 +243,9 @@
             this.Controls.Add(this.trackBarAcceleration);
             this.Controls.Add(this.trackBarMotorSpeed);
             this.Controls.Add(this.label9);
+            this.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular);
             this.Name = "MotorCtrlView";
-            this.Size = new System.Drawing.Size(480, 330);
+            this.Size = new System.Drawing.Size(480, 270);
             this.ResumeLayout(false);
 
         }
