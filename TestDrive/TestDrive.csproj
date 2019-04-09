@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommonRunParameters\CommonRunParameters.cs">
+    <Compile Include="UserControl\CommonRunParameters.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CommonRunParameters\CommonRunParameters.designer.cs">
+    <Compile Include="UserControl\CommonRunParameters.designer.cs">
       <DependentUpon>CommonRunParameters.cs</DependentUpon>
     </Compile>
     <Compile Include="DriveView\DriveView.cs">
@@ -65,7 +65,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CommonRunParameters\CommonRunParameters.resx">
+    <Compile Include="UserControl\RunArcView.cs">
+      <SubType>usercontrol</SubType>
+    </Compile>
+    <Compile Include="UserControl\RunArcView.designer.cs">
+      <DependentUpon>RunArcView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\RunLineView.cs">
+      <SubType>usercontrol</SubType>
+    </Compile>
+    <Compile Include="UserControl\RunLineView.designer.cs">
+      <DependentUpon>RunLineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\RunTurnView.cs">
+      <SubType>usercontrol</SubType>
+    </Compile>
+    <Compile Include="UserControl\RunTurnView.designer.cs">
+      <DependentUpon>RunTurnView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControl\CommonRunParameters.resx">
       <DependentUpon>CommonRunParameters.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DriveView\DriveView.resx">
@@ -83,6 +101,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControl\RunLineView.resx">
+      <DependentUpon>RunLineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\RunTurnView.resx">
+      <DependentUpon>RunTurnView.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Baymax.Console\Baymax.Console.csproj">
