@@ -37,7 +37,7 @@ namespace TestDrive
             // 
             // buttonEditSpeed
             // 
-            this.buttonEditSpeed.Location = new System.Drawing.Point(311, 31);
+            this.buttonEditSpeed.Location = new System.Drawing.Point(311, 20);
             this.buttonEditSpeed.Name = "buttonEditSpeed";
             this.buttonEditSpeed.Size = new System.Drawing.Size(51, 24);
             this.buttonEditSpeed.TabIndex = 41;
@@ -46,7 +46,7 @@ namespace TestDrive
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(13, 11);
+            this.label16.Location = new System.Drawing.Point(0, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(260, 24);
             this.label16.Text = "RunLine";
@@ -54,14 +54,14 @@ namespace TestDrive
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular);
-            this.label18.Location = new System.Drawing.Point(16, 35);
+            this.label18.Location = new System.Drawing.Point(3, 24);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(172, 20);
             this.label18.Text = "Length (+/- mm)";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(368, 31);
+            this.button1.Location = new System.Drawing.Point(368, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(51, 24);
             this.button1.TabIndex = 46;
@@ -69,7 +69,7 @@ namespace TestDrive
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(183, 31);
+            this.button2.Location = new System.Drawing.Point(183, 20);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(41, 24);
             this.button2.TabIndex = 47;
@@ -82,7 +82,7 @@ namespace TestDrive
             0,
             0,
             0});
-            this.upDownAcceleration.Location = new System.Drawing.Point(230, 31);
+            this.upDownAcceleration.Location = new System.Drawing.Point(230, 20);
             this.upDownAcceleration.Maximum = new decimal(new int[] {
             5000,
             0,
@@ -111,7 +111,7 @@ namespace TestDrive
             this.Controls.Add(this.label18);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Name = "RunLine";
-            this.Size = new System.Drawing.Size(450, 72);
+            this.Size = new System.Drawing.Size(450, 60);
             this.ResumeLayout(false);
 
         }

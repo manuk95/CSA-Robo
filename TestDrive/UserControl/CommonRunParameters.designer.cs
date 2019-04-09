@@ -135,7 +135,7 @@ namespace RobotView
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Name = "CommonRunParameters";
-            this.Size = new System.Drawing.Size(450, 97);
+            this.Size = new System.Drawing.Size(450, 90);
             this.ResumeLayout(false);
 
         }
