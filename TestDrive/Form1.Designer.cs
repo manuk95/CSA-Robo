@@ -28,14 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.driveview1 = new RobotView.DriveView();
+            this.commonRunParameters1 = new RobotView.CommonRunParameters();
             this.SuspendLayout();
+            // 
+            // driveview1
+            // 
+            this.driveview1.Drive = null;
+            this.driveview1.Location = new System.Drawing.Point(0, 0);
+            this.driveview1.Name = "driveview1";
+            this.driveview1.Size = new System.Drawing.Size(466, 434);
+            this.driveview1.TabIndex = 0;
+            // 
+            // commonRunParameters1
+            // 
+            this.commonRunParameters1.Acceleration = 0.3F;
+            this.commonRunParameters1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.commonRunParameters1.Location = new System.Drawing.Point(474, 4);
+            this.commonRunParameters1.Name = "commonRunParameters1";
+            this.commonRunParameters1.Size = new System.Drawing.Size(553, 126);
+            this.commonRunParameters1.Speed = 0.5F;
+            this.commonRunParameters1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(638, 455);
+            this.ClientSize = new System.Drawing.Size(1185, 455);
+            this.Controls.Add(this.driveview1);
+            this.Controls.Add(this.commonRunParameters1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
