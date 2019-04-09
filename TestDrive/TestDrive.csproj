@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
+HEAD
 =======
     <EmbeddedResource Include="DriveView\DriveView.resx">
       <DependentUpon>DriveView.cs</DependentUpon>
