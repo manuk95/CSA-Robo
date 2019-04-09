@@ -33,7 +33,7 @@ namespace Baymax.Control
         private bool oldState;
         #endregion
 
-
+        // Event LedStateChanged zur verfügung stellen
         #region eventhandler
         public event EventHandler<LedEventArgs> LedStateChanged;
         #endregion
