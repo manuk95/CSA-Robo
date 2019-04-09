@@ -1,4 +1,4 @@
-namespace TestDrive
+namespace RobotView
 {
     partial class RunTurnView
     {
@@ -42,7 +42,7 @@ namespace TestDrive
             0,
             0,
             0});
-            this.upDownAcceleration.Location = new System.Drawing.Point(239, 34);
+            this.upDownAcceleration.Location = new System.Drawing.Point(239, 20);
             this.upDownAcceleration.Maximum = new decimal(new int[] {
             5000,
             0,
@@ -59,7 +59,7 @@ namespace TestDrive
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(192, 34);
+            this.button2.Location = new System.Drawing.Point(192, 20);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(41, 24);
             this.button2.TabIndex = 53;
@@ -67,7 +67,7 @@ namespace TestDrive
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(377, 34);
+            this.button1.Location = new System.Drawing.Point(377, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(51, 24);
             this.button1.TabIndex = 52;
@@ -75,7 +75,7 @@ namespace TestDrive
             // 
             // buttonEditSpeed
             // 
-            this.buttonEditSpeed.Location = new System.Drawing.Point(320, 34);
+            this.buttonEditSpeed.Location = new System.Drawing.Point(320, 20);
             this.buttonEditSpeed.Name = "buttonEditSpeed";
             this.buttonEditSpeed.Size = new System.Drawing.Size(51, 24);
             this.buttonEditSpeed.TabIndex = 51;
@@ -84,7 +84,7 @@ namespace TestDrive
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(22, 14);
+            this.label16.Location = new System.Drawing.Point(0, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(260, 24);
             this.label16.Text = "RunTurn";
@@ -92,7 +92,7 @@ namespace TestDrive
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular);
-            this.label18.Location = new System.Drawing.Point(25, 38);
+            this.label18.Location = new System.Drawing.Point(3, 24);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(172, 20);
             this.label18.Text = "Length (+/- mm)";
@@ -109,7 +109,7 @@ namespace TestDrive
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label18);
             this.Name = "RunTurnView";
-            this.Size = new System.Drawing.Size(450, 72);
+            this.Size = new System.Drawing.Size(450, 60);
             this.Click += new System.EventHandler(this.RunTurnView_Click);
             this.ResumeLayout(false);
 

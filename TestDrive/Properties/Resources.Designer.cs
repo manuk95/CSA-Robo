@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TestDrive.Properties
+namespace RobotView.Properties
 {
 
 
