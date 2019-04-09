@@ -74,6 +74,7 @@
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="RunArc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +93,8 @@
     <Compile Include="RunTurnView.designer.cs">
       <DependentUpon>RunTurnView.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
 =======
 >>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <Compile Include="SwitchView.cs">
@@ -125,6 +128,7 @@
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="RunArc.resx">
       <DependentUpon>RunArc.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +138,8 @@
     <EmbeddedResource Include="RunTurnView.resx">
       <DependentUpon>RunTurnView.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
 =======
 >>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <EmbeddedResource Include="SwitchView.resx">

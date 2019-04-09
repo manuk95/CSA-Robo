@@ -47,14 +47,20 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <Compile Include="UserControl\CommonRunParameters.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControl\CommonRunParameters.designer.cs">
       <DependentUpon>CommonRunParameters.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
+=======
 >>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <Compile Include="DriveView\DriveView.cs">
       <SubType>UserControl</SubType>
@@ -63,7 +69,10 @@
       <DependentUpon>DriveView.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 626c5913bb9d8394f351adf7519be25444da479e
+=======
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
 =======
 >>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <Compile Include="Form1.cs">
@@ -81,6 +90,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 HEAD
 =======
     <EmbeddedResource Include="DriveView\DriveView.resx">
@@ -88,6 +98,8 @@ HEAD
     </EmbeddedResource>
 >>>>>>> 626c5913bb9d8394f351adf7519be25444da479e
 =======
+=======
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <Compile Include="UserControl\RunArcView.cs">
       <SubType>usercontrol</SubType>
     </Compile>
@@ -112,6 +124,9 @@ HEAD
     <EmbeddedResource Include="DriveView\DriveView.resx">
       <DependentUpon>DriveView.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+>>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
+=======
 >>>>>>> parent of be96f05... Uebung 6 clean up and added UserControl DriveView and CommonRunParameter
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
