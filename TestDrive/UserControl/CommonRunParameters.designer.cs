@@ -51,14 +51,14 @@ namespace RobotView
             0,
             0,
             0});
-            this.upDownAcceleration.Location = new System.Drawing.Point(215, 50);
+            this.upDownAcceleration.Location = new System.Drawing.Point(230, 50);
             this.upDownAcceleration.Maximum = new decimal(new int[] {
             5000,
             0,
             0,
             0});
             this.upDownAcceleration.Name = "upDownAcceleration";
-            this.upDownAcceleration.Size = new System.Drawing.Size(75, 32);
+            this.upDownAcceleration.Size = new System.Drawing.Size(75, 24);
             this.upDownAcceleration.TabIndex = 20;
             this.upDownAcceleration.Value = new decimal(new int[] {
             300,
@@ -73,14 +73,14 @@ namespace RobotView
             0,
             0,
             0});
-            this.upDownSpeed.Location = new System.Drawing.Point(215, 20);
+            this.upDownSpeed.Location = new System.Drawing.Point(230, 20);
             this.upDownSpeed.Maximum = new decimal(new int[] {
             8000,
             0,
             0,
             0});
             this.upDownSpeed.Name = "upDownSpeed";
-            this.upDownSpeed.Size = new System.Drawing.Size(75, 32);
+            this.upDownSpeed.Size = new System.Drawing.Size(75, 24);
             this.upDownSpeed.TabIndex = 21;
             this.upDownSpeed.Value = new decimal(new int[] {
             500,
@@ -106,7 +106,7 @@ namespace RobotView
             // 
             // buttonEditSpeed
             // 
-            this.buttonEditSpeed.Location = new System.Drawing.Point(296, 20);
+            this.buttonEditSpeed.Location = new System.Drawing.Point(311, 20);
             this.buttonEditSpeed.Name = "buttonEditSpeed";
             this.buttonEditSpeed.Size = new System.Drawing.Size(51, 24);
             this.buttonEditSpeed.TabIndex = 34;
@@ -115,7 +115,7 @@ namespace RobotView
             // 
             // buttonEditAcceleration
             // 
-            this.buttonEditAcceleration.Location = new System.Drawing.Point(296, 50);
+            this.buttonEditAcceleration.Location = new System.Drawing.Point(311, 50);
             this.buttonEditAcceleration.Name = "buttonEditAcceleration";
             this.buttonEditAcceleration.Size = new System.Drawing.Size(51, 24);
             this.buttonEditAcceleration.TabIndex = 35;
@@ -124,8 +124,9 @@ namespace RobotView
             // 
             // CommonRunParameters
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.buttonEditAcceleration);
             this.Controls.Add(this.buttonEditSpeed);
             this.Controls.Add(this.label16);
@@ -134,7 +135,7 @@ namespace RobotView
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Name = "CommonRunParameters";
-            this.Size = new System.Drawing.Size(372, 97);
+            this.Size = new System.Drawing.Size(450, 97);
             this.ResumeLayout(false);
 
         }
