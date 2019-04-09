@@ -14,6 +14,8 @@ namespace TestDrive
         public Form1()
         {
             InitializeComponent();
+            this.driveview1 = new RobotView.DriveView();
+            this.commonRunParameters1 = new RobotView.CommonRunParameters();
         }
     }
 }
