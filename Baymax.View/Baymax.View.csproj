@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonRunParameters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonRunParameters.designer.cs">
+      <DependentUpon>CommonRunParameters.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsoleView.cs">
       <SubType>usercontrol</SubType>
     </Compile>
@@ -73,6 +79,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="RunArc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunArc.designer.cs">
+      <DependentUpon>RunArc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunLineView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunLineView.designer.cs">
+      <DependentUpon>RunLineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunTurnView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunTurnView.designer.cs">
+      <DependentUpon>RunTurnView.cs</DependentUpon>
+    </Compile>
     <Compile Include="SwitchView.cs">
       <SubType>usercontrol</SubType>
     </Compile>
@@ -87,6 +111,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CommonRunParameters.resx">
+      <DependentUpon>CommonRunParameters.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsoleView.resx">
       <DependentUpon>ConsoleView.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +129,15 @@
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunArc.resx">
+      <DependentUpon>RunArc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunLineView.resx">
+      <DependentUpon>RunLineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunTurnView.resx">
+      <DependentUpon>RunTurnView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SwitchView.resx">
       <DependentUpon>SwitchView.cs</DependentUpon>

@@ -42,7 +42,7 @@ namespace RobotView
             // 
             // buttonArcNeg
             // 
-            this.buttonArcNeg.Location = new System.Drawing.Point(174, 62);
+            this.buttonArcNeg.Location = new System.Drawing.Point(189, 62);
             this.buttonArcNeg.Name = "buttonArcNeg";
             this.buttonArcNeg.Size = new System.Drawing.Size(35, 24);
             this.buttonArcNeg.TabIndex = 24;
@@ -66,7 +66,7 @@ namespace RobotView
             // 
             // radioButtonArcRight
             // 
-            this.radioButtonArcRight.Location = new System.Drawing.Point(272, 4);
+            this.radioButtonArcRight.Location = new System.Drawing.Point(311, 4);
             this.radioButtonArcRight.Name = "radioButtonArcRight";
             this.radioButtonArcRight.Size = new System.Drawing.Size(61, 20);
             this.radioButtonArcRight.TabIndex = 29;
@@ -80,7 +80,7 @@ namespace RobotView
             0,
             0,
             0});
-            this.upDownArcAngle.Location = new System.Drawing.Point(215, 62);
+            this.upDownArcAngle.Location = new System.Drawing.Point(230, 62);
             this.upDownArcAngle.Maximum = new decimal(new int[] {
             360,
             0,
@@ -103,7 +103,7 @@ namespace RobotView
             // arcLeftRadioButton
             // 
             this.arcLeftRadioButton.Checked = true;
-            this.arcLeftRadioButton.Location = new System.Drawing.Point(215, 4);
+            this.arcLeftRadioButton.Location = new System.Drawing.Point(230, 4);
             this.arcLeftRadioButton.Name = "arcLeftRadioButton";
             this.arcLeftRadioButton.Size = new System.Drawing.Size(51, 20);
             this.arcLeftRadioButton.TabIndex = 30;
@@ -124,7 +124,7 @@ namespace RobotView
             0,
             0,
             0});
-            this.upDownArcRadius.Location = new System.Drawing.Point(215, 30);
+            this.upDownArcRadius.Location = new System.Drawing.Point(230, 30);
             this.upDownArcRadius.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -141,7 +141,7 @@ namespace RobotView
             // 
             // buttonStartArc
             // 
-            this.buttonStartArc.Location = new System.Drawing.Point(353, 30);
+            this.buttonStartArc.Location = new System.Drawing.Point(368, 29);
             this.buttonStartArc.Name = "buttonStartArc";
             this.buttonStartArc.Size = new System.Drawing.Size(51, 57);
             this.buttonStartArc.TabIndex = 23;
@@ -150,7 +150,7 @@ namespace RobotView
             // 
             // buttonEditRadius
             // 
-            this.buttonEditRadius.Location = new System.Drawing.Point(296, 30);
+            this.buttonEditRadius.Location = new System.Drawing.Point(311, 29);
             this.buttonEditRadius.Name = "buttonEditRadius";
             this.buttonEditRadius.Size = new System.Drawing.Size(51, 24);
             this.buttonEditRadius.TabIndex = 32;
@@ -159,7 +159,7 @@ namespace RobotView
             // 
             // buttonEditAngle
             // 
-            this.buttonEditAngle.Location = new System.Drawing.Point(296, 63);
+            this.buttonEditAngle.Location = new System.Drawing.Point(311, 62);
             this.buttonEditAngle.Name = "buttonEditAngle";
             this.buttonEditAngle.Size = new System.Drawing.Size(51, 24);
             this.buttonEditAngle.TabIndex = 33;
@@ -170,6 +170,7 @@ namespace RobotView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.buttonEditAngle);
             this.Controls.Add(this.buttonEditRadius);
             this.Controls.Add(this.buttonArcNeg);
@@ -182,7 +183,7 @@ namespace RobotView
             this.Controls.Add(this.upDownArcRadius);
             this.Controls.Add(this.buttonStartArc);
             this.Name = "RunArc";
-            this.Size = new System.Drawing.Size(410, 90);
+            this.Size = new System.Drawing.Size(450, 90);
             this.ResumeLayout(false);
 
         }

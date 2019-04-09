@@ -5,8 +5,9 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
+using RobotCtrl;
 
-namespace TestDrive
+namespace RobotView
 {
     public partial class RunLine : UserControl
     {
@@ -14,6 +15,12 @@ namespace TestDrive
         {
             InitializeComponent();
         }
+
+        #region properties
+        public float Speed { get; set; }
+        public float Acceleration { get; set; }
+        public Drive Drive { get; set; }
+        #endregion
 
         private void buttonEditAcceleration_Click(object sender, EventArgs e)
         {

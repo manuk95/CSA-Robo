@@ -15,7 +15,6 @@ namespace RobotView
         public RunArc()
         {
             InitializeComponent();
-            //TEst ;F
         }
         #endregion
 
