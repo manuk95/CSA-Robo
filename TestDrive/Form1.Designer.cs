@@ -37,7 +37,7 @@
             // driveview1
             // 
             this.driveview1.Drive = null;
-            this.driveview1.Location = new System.Drawing.Point(0, 0);
+            this.driveview1.Location = new System.Drawing.Point(4, 4);
             this.driveview1.Name = "driveview1";
             this.driveview1.Size = new System.Drawing.Size(466, 434);
             this.driveview1.TabIndex = 0;
@@ -62,14 +62,14 @@
             this.runLine1.Name = "runLine1";
             this.runLine1.Size = new System.Drawing.Size(553, 82);
             this.runLine1.TabIndex = 1;
-            //
+            // 
             // runTurnView1
             // 
+            this.runTurnView1.Angle = 90;
             this.runTurnView1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.runTurnView1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.runTurnView1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.runTurnView1.Angle = 90;
-            this.runTurnView1.Location = new System.Drawing.Point(474, 137);
+            this.runTurnView1.Location = new System.Drawing.Point(474, 225);
             this.runTurnView1.Name = "runTurnView1";
             this.runTurnView1.Size = new System.Drawing.Size(553, 82);
             this.runTurnView1.TabIndex = 1;
@@ -83,6 +83,7 @@
             this.Controls.Add(this.driveview1);
             this.Controls.Add(this.commonRunParameters1);
             this.Controls.Add(this.runLine1);
+            this.Controls.Add(this.runTurnView1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
