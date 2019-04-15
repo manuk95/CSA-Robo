@@ -30,6 +30,7 @@
         {
             this.driveview1 = new RobotView.DriveView();
             this.commonRunParameters1 = new RobotView.CommonRunParameters();
+            this.runLine1 = new RobotView.RunLine();
             this.SuspendLayout();
             // 
             // driveview1
@@ -50,6 +51,17 @@
             this.commonRunParameters1.Speed = 0.5F;
             this.commonRunParameters1.TabIndex = 1;
             // 
+            // runLine1
+            // 
+            this.runLine1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.runLine1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.runLine1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.runLine1.Length = 0.3F;
+            this.runLine1.Location = new System.Drawing.Point(474, 137);
+            this.runLine1.Name = "runLine1";
+            this.runLine1.Size = new System.Drawing.Size(553, 82);
+            this.runLine1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -58,6 +70,7 @@
             this.ClientSize = new System.Drawing.Size(1185, 455);
             this.Controls.Add(this.driveview1);
             this.Controls.Add(this.commonRunParameters1);
+            this.Controls.Add(this.runLine1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -67,6 +80,7 @@
         #endregion
         private RobotView.DriveView driveview1;
         private RobotView.CommonRunParameters commonRunParameters1;
+        private RobotView.RunLine runLine1;
     }
 }
 

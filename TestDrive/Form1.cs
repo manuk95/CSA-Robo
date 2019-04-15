@@ -24,15 +24,22 @@ namespace TestDrive
 
             commonRunParameters1.SpeedChanged += CommonRunParameters1_SpeedChanged;
             commonRunParameters1.AccelerationChanged += CommonRunParameters1_AccelerationChanged;
+            runLine1.LengthChanged += RunLine_LengthChanged;
            
         }
 
         private void CommonRunParameters1_AccelerationChanged(object sender, EventArgs e)
         {
+           
         }
 
         private void CommonRunParameters1_SpeedChanged(object sender, EventArgs e)
         {
+        }
+
+        private void RunLine_LengthChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
