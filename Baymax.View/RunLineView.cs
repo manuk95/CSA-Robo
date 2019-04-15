@@ -10,18 +10,42 @@ namespace RobotView
 {
     public partial class RunLine : UserControl
     {
+        #region events
+        public event EventHandler<EventArgs> LengthChanged;
+        #endregion
+
         public RunLine()
         {
             InitializeComponent();
+            upDownLength.ValueChanged += new EventHandler(upDownLength_ValueChanged);
         }
 
-        private void buttonEditAcceleration_Click(object sender, EventArgs e)
+        #region properties
+        public float Length
         {
-
+            get { return (float)upDownLength.Value / 1000; }
+            set { upDownLength.Value = (decimal)value * 1000; }
         }
+        #endregion
 
-        private void buttonEditSpeed_Click(object sender, EventArgs e)
+        #region methods
+        void upDownLength_ValueChanged(object sender, EventArgs e)
         {
+            if (LengthChanged != null)
+            {
+                LengthChanged(this, e);
+            }
+        }
+        #endregion
+
+        private void buttonEditLength_Click(object sender, EventArgs e)
+        {
+            NumberKeyboard nk = new NumberKeyboard();
+            nk.Number = (float)upDownLength.Value;
+            if (nk.ShowDialog() == DialogResult.OK)
+            {
+                upDownLength.Value = (int)nk.Number;
+            }
 
         }
     }

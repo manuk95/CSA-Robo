@@ -27,21 +27,21 @@ namespace RobotView
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonEditSpeed = new System.Windows.Forms.Button();
+            this.buttonEditLength = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.upDownAcceleration = new System.Windows.Forms.NumericUpDown();
+            this.upDownLength = new System.Windows.Forms.NumericUpDown();
             this.SuspendLayout();
             // 
-            // buttonEditSpeed
+            // buttonEditLength
             // 
-            this.buttonEditSpeed.Location = new System.Drawing.Point(311, 31);
-            this.buttonEditSpeed.Name = "buttonEditSpeed";
-            this.buttonEditSpeed.Size = new System.Drawing.Size(51, 24);
-            this.buttonEditSpeed.TabIndex = 41;
-            this.buttonEditSpeed.Text = "...";
+            this.buttonEditLength.Location = new System.Drawing.Point(311, 31);
+            this.buttonEditLength.Name = "buttonEditLength";
+            this.buttonEditLength.Size = new System.Drawing.Size(51, 24);
+            this.buttonEditLength.TabIndex = 41;
+            this.buttonEditLength.Text = "...";
             // 
             // label16
             // 
@@ -75,23 +75,23 @@ namespace RobotView
             this.button2.TabIndex = 47;
             this.button2.Text = "+ / -";
             // 
-            // upDownAcceleration
+            // upDownLength
             // 
-            this.upDownAcceleration.Increment = new decimal(new int[] {
+            this.upDownLength.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
-            this.upDownAcceleration.Location = new System.Drawing.Point(230, 31);
-            this.upDownAcceleration.Maximum = new decimal(new int[] {
+            this.upDownLength.Location = new System.Drawing.Point(230, 31);
+            this.upDownLength.Maximum = new decimal(new int[] {
             5000,
             0,
             0,
             0});
-            this.upDownAcceleration.Name = "upDownAcceleration";
-            this.upDownAcceleration.Size = new System.Drawing.Size(75, 24);
-            this.upDownAcceleration.TabIndex = 48;
-            this.upDownAcceleration.Value = new decimal(new int[] {
+            this.upDownLength.Name = "upDownLength";
+            this.upDownLength.Size = new System.Drawing.Size(75, 32);
+            this.upDownLength.TabIndex = 48;
+            this.upDownLength.Value = new decimal(new int[] {
             300,
             0,
             0,
@@ -99,14 +99,14 @@ namespace RobotView
             // 
             // RunLine
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Controls.Add(this.upDownAcceleration);
+            this.Controls.Add(this.upDownLength);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.buttonEditSpeed);
+            this.Controls.Add(this.buttonEditLength);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label18);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -118,11 +118,11 @@ namespace RobotView
 
         #endregion
 
-        private System.Windows.Forms.Button buttonEditSpeed;
+        private System.Windows.Forms.Button buttonEditLength;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.NumericUpDown upDownAcceleration;
+        private System.Windows.Forms.NumericUpDown upDownLength;
     }
 }
