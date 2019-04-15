@@ -110,7 +110,7 @@ namespace RobotView
             this.Controls.Add(this.label18);
             this.Name = "RunTurnView";
             this.Size = new System.Drawing.Size(450, 72);
-            this.Click += new System.EventHandler(this.RunTurnView_Click);
+            this.Click += new System.EventHandler(this.button1_Click);
             this.ResumeLayout(false);
 
         }

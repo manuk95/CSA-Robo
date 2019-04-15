@@ -12,6 +12,7 @@ namespace RobotView
     {
         #region events
         public event EventHandler<EventArgs> AngleChanged;
+        public event EventHandler<EventArgs> StartClicked;
         #endregion
 
         public RunTurnView()
@@ -35,13 +36,13 @@ namespace RobotView
             {
                 AngleChanged(this, e);
             }
-        }
-
-        private void RunTurnView_Click(object sender, EventArgs e)
+        } 
+        private void button1_Click(object sender, EventArgs e)
         {
-            // Was machen??
+            // Was machen? - erledigt
+            StartClicked(this, e);
         }
-
+        
         private void buttonEditAngle_Click(object sender, EventArgs e)
         {
             NumberKeyboard nk = new NumberKeyboard();
