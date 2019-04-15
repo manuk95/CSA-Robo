@@ -39,7 +39,7 @@ namespace RobotView
 
         private void RunTurnView_Click(object sender, EventArgs e)
         {
-            // Was machen?
+            // Was machen??
         }
 
         private void buttonEditAngle_Click(object sender, EventArgs e)
