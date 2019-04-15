@@ -26,6 +26,8 @@ namespace TestDrive
             commonRunParameters1.AccelerationChanged += CommonRunParameters1_AccelerationChanged;
             runLine1.LengthChanged += RunLine1_LengthChanged;
             runTurnView1.AngleChanged += RunTurnView1_AngleChanged;
+            runArc1.ArcAngleChanged += RunArc1_ArcAngleChanged;
+            runArc1.ArcRadiusChanged += RunArc1_ArcRadiusChanged;
            
         }
 
@@ -45,6 +47,16 @@ namespace TestDrive
         }
 
         private void RunTurnView1_AngleChanged(object sender, EventArgs e)
+        {
+            // Was machen?
+        }
+
+        private void RunArc1_ArcAngleChanged(object sender, EventArgs e)
+        {
+            // Was machen?
+        }
+
+        private void RunArc1_ArcRadiusChanged(object sender, EventArgs e)
         {
             // Was machen?
         }

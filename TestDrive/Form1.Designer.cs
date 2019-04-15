@@ -32,6 +32,7 @@
             this.commonRunParameters1 = new RobotView.CommonRunParameters();
             this.runLine1 = new RobotView.RunLine();
             this.runTurnView1 = new RobotView.RunTurnView();
+            this.runArc1 = new RobotView.RunArc();
             this.SuspendLayout();
             // 
             // driveview1
@@ -74,6 +75,19 @@
             this.runTurnView1.Size = new System.Drawing.Size(553, 82);
             this.runTurnView1.TabIndex = 1;
             // 
+            // runArc1
+            // 
+            this.runArc1.Acceleration = 0.3F;
+            this.runArc1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.runArc1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.runArc1.Drive = null;
+            this.runArc1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.runArc1.Location = new System.Drawing.Point(477, 313);
+            this.runArc1.Name = "runArc1";
+            this.runArc1.Size = new System.Drawing.Size(553, 109);
+            this.runArc1.Speed = 0F;
+            this.runArc1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -84,6 +98,7 @@
             this.Controls.Add(this.commonRunParameters1);
             this.Controls.Add(this.runLine1);
             this.Controls.Add(this.runTurnView1);
+            this.Controls.Add(this.runArc1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -95,6 +110,7 @@
         private RobotView.CommonRunParameters commonRunParameters1;
         private RobotView.RunLine runLine1;
         private RobotView.RunTurnView runTurnView1;
+        private RobotView.RunArc runArc1;
     }
 }
 
