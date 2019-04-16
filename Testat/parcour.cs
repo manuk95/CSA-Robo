@@ -52,7 +52,7 @@ namespace Testat
                 }
             }
 
-            robot.Drive.RunTurn(90.0f, 0.3f, 0.5f);
+            robot.Drive.RunTurn(-90.0f, 0.3f, 0.5f);
             while (!robot.Drive.Done)
             {
                 // warten bis fertig gedreht
@@ -67,7 +67,7 @@ namespace Testat
                 Thread.Sleep(100);
             }
 
-            robot.Drive.RunTurn(90.0f, 0.3f, 0.5f);
+            robot.Drive.RunTurn(-90.0f, 0.3f, 0.5f);
             while (!robot.Drive.Done)
             {
                 // warten bis fertig gedreht
@@ -83,7 +83,7 @@ namespace Testat
             }
 
             // Kreis fahren
-            robot.Drive.RunArcRight(1.0f, 90.0f, 0.3f, 0.5f);
+            robot.Drive.RunArcRight(1.0f, -90.0f, 0.3f, 0.5f);
             while (!robot.Drive.Done)
             {
                 // warten bis fertig gefahren
