@@ -12,6 +12,7 @@ namespace Testat
 {
     public partial class Testat1_Form1 : Form
     {
+        parcour par; 
         public Testat1_Form1()
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace Testat
             Robot R = new Robot();
             this.switch1.Switch = R.RobotConsole[Switches.Switch1];
             R.RobotConsole[Switches.Switch1].SwitchStateChanged += Testat1_Form1_SwitchStateChanged;
+            par = new parcour();
 
         }
 
@@ -26,7 +28,7 @@ namespace Testat
         {
             if(e.SwitchEnabled == true)
             {
-                parcour.driveParcour();
+                par.driveParcour();
             }
             else
             {
