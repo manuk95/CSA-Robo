@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu mainMenu1;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.switch1 = new Baymax.View.SwitchView();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // switch1
@@ -42,14 +41,22 @@
             this.switch1.Switch = null;
             this.switch1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular);
+            this.label1.Location = new System.Drawing.Point(139, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 41);
+            this.label1.Text = "0";
+            // 
             // Testat1_Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(638, 353);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.switch1);
-            this.Menu = this.mainMenu1;
             this.Name = "Testat1_Form1";
             this.Text = "Testat";
             this.ResumeLayout(false);
@@ -59,6 +66,7 @@
         #endregion
 
         private Baymax.View.SwitchView switch1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
