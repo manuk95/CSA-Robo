@@ -27,6 +27,7 @@ namespace TestDrive
             runLine1.LengthChanged += RunLine1_LengthChanged;
             runLine1.StartPressed += RunLine1_StartPressed;
             runTurnView1.AngleChanged += RunTurnView1_AngleChanged;
+            runTurnView1.StartClicked += RunTurnView1_StartClicked;
             runArc1.ArcAngleChanged += RunArc1_ArcAngleChanged;
             runArc1.ArcRadiusChanged += RunArc1_ArcRadiusChanged;
            
@@ -49,12 +50,17 @@ namespace TestDrive
 
         private void RunLine1_StartPressed(object sender, EventArgs e)
         {
-            drive.RunLine(1000, 500, 100);
+            drive.RunLine(10000, 55, 100);
         }
 
         private void RunTurnView1_AngleChanged(object sender, EventArgs e)
         {
             // Was machen?
+        }
+
+        private void RunTurnView1_StartClicked(object sender, EventArgs e)
+        {
+            drive.RunTurn(900000, 100, 100);
         }
 
         private void RunArc1_ArcAngleChanged(object sender, EventArgs e)

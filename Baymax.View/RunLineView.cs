@@ -50,7 +50,7 @@ namespace RobotView
 
         }
 
-        private void buttonStart_Click(object sender, EventArgs e)
+        private void start_Click(object sender, EventArgs e)
         {
             StartPressed(this, e);
 
