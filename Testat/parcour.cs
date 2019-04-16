@@ -91,6 +91,21 @@ namespace Testat
                 Thread.Sleep(100);
             }
 
+            // gerade aus fahren 1.5m
+            robot.Drive.RunLine(0.2f, 0.3f, 0.5f);
+            while (!robot.Drive.Done)
+            {
+                // warten bis fertig gefahren
+                Thread.Sleep(100);
+            }
+
+            robot.Drive.RunTurn(-90.0f, 0.3f, 0.5f);
+            while (!robot.Drive.Done)
+            {
+                // warten bis fertig gedreht
+                Thread.Sleep(100);
+            }
+
             // Roboter stoppen
             robot.Drive.Stop();
 

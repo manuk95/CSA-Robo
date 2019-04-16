@@ -40,7 +40,14 @@ namespace Testat
 
         public void changeLabel(int counter)
         {
-            this.label1.Text = counter.ToString();
+            String test = counter.ToString();
+            //this.label1.Text = test;
+            DialogResult result;
+
+            result = MessageBox.Show(test);
+            if(result == System.Windows.Forms.DialogResult.Yes) { this.Close(); }
+            par.numberOfObjects = 0;
+            
         }
 
        
