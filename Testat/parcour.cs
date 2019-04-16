@@ -17,15 +17,16 @@ namespace Testat
         private Radar radar;
         #endregion
 
+
         /// <summary>
         /// Startet den Roboter
         /// </summary>
-        public void driveParcour()
+        public void driveParcour(Robot robot)
         {
             int i = 0;
             int numberOfObjects = 0;
             
-            Robot robot = new Robot();
+            //Robot robot = new Robot();
             robot.Drive.Power = true;
             this.radar = new Radar(Constants.IORadarSensor);
 
