@@ -111,6 +111,7 @@ namespace RobotView
             this.Controls.Add(this.label18);
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Name = "RunLine";
+            this.Click += new System.EventHandler(this.start_Click);
             this.Size = new System.Drawing.Size(450, 72);
             this.ResumeLayout(false);
 

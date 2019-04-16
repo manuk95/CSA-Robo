@@ -12,7 +12,7 @@ namespace RobotView
     {
         #region events
         public event EventHandler<EventArgs> LengthChanged;
-        public event EventHandler<EventArgs> StartPressed;
+        public event EventHandler<EventArgs> StartClicked;
         #endregion
 
         public RunLine()
@@ -52,7 +52,7 @@ namespace RobotView
 
         private void start_Click(object sender, EventArgs e)
         {
-            StartPressed(this, e);
+            StartClicked(this, e);
 
         }
     }

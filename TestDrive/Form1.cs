@@ -25,7 +25,7 @@ namespace TestDrive
             commonRunParameters1.SpeedChanged += CommonRunParameters1_SpeedChanged;
             commonRunParameters1.AccelerationChanged += CommonRunParameters1_AccelerationChanged;
             runLine1.LengthChanged += RunLine1_LengthChanged;
-            runLine1.StartPressed += RunLine1_StartPressed;
+            runLine1.StartClicked += RunLine1_StartPressed;
             runTurnView1.AngleChanged += RunTurnView1_AngleChanged;
             runTurnView1.StartClicked += RunTurnView1_StartClicked;
             runArc1.ArcAngleChanged += RunArc1_ArcAngleChanged;
