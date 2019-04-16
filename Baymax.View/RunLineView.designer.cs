@@ -30,7 +30,7 @@ namespace RobotView
             this.buttonEditLength = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.start = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.upDownLength = new System.Windows.Forms.NumericUpDown();
             this.SuspendLayout();
@@ -59,13 +59,13 @@ namespace RobotView
             this.label18.Size = new System.Drawing.Size(172, 20);
             this.label18.Text = "Length (+/- mm)";
             // 
-            // button1
+            // start
             // 
-            this.button1.Location = new System.Drawing.Point(368, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 24);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "Start";
+            this.start.Location = new System.Drawing.Point(368, 31);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(51, 24);
+            this.start.TabIndex = 46;
+            this.start.Text = "Start";
             // 
             // button2
             // 
@@ -105,7 +105,7 @@ namespace RobotView
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.upDownLength);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.start);
             this.Controls.Add(this.buttonEditLength);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label18);
@@ -121,7 +121,7 @@ namespace RobotView
         private System.Windows.Forms.Button buttonEditLength;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button start;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.NumericUpDown upDownLength;
     }

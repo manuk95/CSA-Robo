@@ -12,6 +12,7 @@ namespace RobotView
     {
         #region events
         public event EventHandler<EventArgs> LengthChanged;
+        public event EventHandler<EventArgs> StartPressed;
         #endregion
 
         public RunLine()
@@ -46,6 +47,12 @@ namespace RobotView
             {
                 upDownLength.Value = (int)nk.Number;
             }
+
+        }
+
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+            StartPressed(this, e);
 
         }
     }
