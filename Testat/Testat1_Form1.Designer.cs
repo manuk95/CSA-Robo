@@ -1,6 +1,6 @@
 ﻿namespace Testat
 {
-    partial class Form1
+    partial class Testat1_Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,35 @@
         private void InitializeComponent()
         {
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
-            this.Menu = this.mainMenu1;
-            this.components = new System.ComponentModel.Container();
+            this.switch1 = new Baymax.View.SwitchView();
+            this.SuspendLayout();
+            // 
+            // switch1
+            // 
+            this.switch1.Location = new System.Drawing.Point(45, 19);
+            this.switch1.Name = "switch1";
+            this.switch1.Size = new System.Drawing.Size(21, 41);
+            this.switch1.State = false;
+            this.switch1.Switch = null;
+            this.switch1.TabIndex = 0;
+            // 
+            // Testat1_Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.Text = "Form1";
             this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(638, 353);
+            this.Controls.Add(this.switch1);
+            this.Menu = this.mainMenu1;
+            this.Name = "Testat1_Form1";
+            this.Text = "Testat";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Baymax.View.SwitchView switch1;
     }
 }
 

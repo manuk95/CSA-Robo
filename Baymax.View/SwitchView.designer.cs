@@ -37,15 +37,15 @@ namespace Baymax.View
             this.switchImage.Image = ((System.Drawing.Image)(resources.GetObject("switchImage.Image")));
             this.switchImage.Location = new System.Drawing.Point(0, 0);
             this.switchImage.Name = "switchImage";
-            this.switchImage.Size = new System.Drawing.Size(53, 67);
+            this.switchImage.Size = new System.Drawing.Size(37, 64);
             // 
             // SwitchView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.Controls.Add(this.switchImage);
             this.Name = "SwitchView";
-            this.Size = new System.Drawing.Size(53, 67);
+            this.Size = new System.Drawing.Size(37, 64);
             this.ResumeLayout(false);
 
         }
