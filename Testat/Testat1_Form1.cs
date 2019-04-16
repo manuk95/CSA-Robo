@@ -30,11 +30,21 @@ namespace Testat
             if(e.SwitchEnabled == true)
             {
                 par.driveParcour(R);
+                changeLabel(par.numberOfObjects);
             }
             else
             {
                 // ev stop.
             }
         }
+
+        public void changeLabel(int counter)
+        {
+            this.label1.Text = counter.ToString();
+        }
+
+       
+
+        
     }
 }

@@ -15,6 +15,7 @@ namespace Testat
         #region members
         private RobotConsole robotConsole;
         private Radar radar;
+        public int numberOfObjects;
         #endregion
 
 
@@ -24,7 +25,7 @@ namespace Testat
         public void driveParcour(Robot robot)
         {
             int i = 0;
-            int numberOfObjects = 0;
+            numberOfObjects = 0;
             
             //Robot robot = new Robot();
             robot.Drive.Power = true;
