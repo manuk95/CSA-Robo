@@ -43,13 +43,21 @@ namespace Testat
                 {
                     // begining Object
                     i = 1;  // set beginning of Object
-                   
+                    robot.RobotConsole[Leds.Led1].LedEnabled = true;
+                    robot.RobotConsole[Leds.Led3].LedEnabled = true;
+                    robot.RobotConsole[Leds.Led2].LedEnabled = false;
+                    robot.RobotConsole[Leds.Led4].LedEnabled = false;
+
                 }
 
-                if(radar.Distance > 1 && i == 1)
+                if(radar.Distance > 1.5f && i == 1)
                 {
                     numberOfObjects = numberOfObjects + 1; // increment number of Objects
                     i = 0;  // reset help variable for next Objects
+                    robot.RobotConsole[Leds.Led1].LedEnabled = false;
+                    robot.RobotConsole[Leds.Led3].LedEnabled = false;
+                    robot.RobotConsole[Leds.Led2].LedEnabled = true;
+                    robot.RobotConsole[Leds.Led4].LedEnabled = true;
                 }
             }
 
